@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QuickShow-Book Your Tickets Now</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="QuickShow-assets/assets/favicon.svg" type="image/svg+xml" />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+  <div class="navbar-content">
+    <div class="logo">Quick<span>Show</span></div>
+
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Movies</a></li>
+      <li><a href="#">Theaters</a></li>
+      <li><a href="#">Releases</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <i class="search-icon">🔍</i>
+      <a href="#signup-modal" class="login-btn">Login</a>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <div class="movie-content">
+      <img src="QuickShow-assets/assets/marvelLogo.svg" alt="Marvel Studios" class="marvel-logo" />
+      <h1>Guardians<br>of the Galaxy</h1>
+      <p class="tags">
+        Action | Adventure | Sci-Fi  
+        <span>📅 2018</span> <span>⏱ 2h 8m</span>
+      </p>
+      <p class="description">
+        In a post-apocalyptic world where cities ride on wheels and consume each other to survive, 
+        two people meet in London and try to stop a conspiracy.
+      </p>
+      <button class="explore-btn">Explore Movies →</button>
+    </div>
+  </div>
+<section class="now-showing">
+  <div class="now-showing-header">
+    <h2>Now Showing</h2>
+    <a href="#">View All →</a>
+  </div>
+
+  <div class="movie-grid">
+    <!-- Card 1 -->
+    <div class="movie-card">
+      <img src="QuickShow-assets/assets/movie1.jpg" alt="Mission: Impossible – The Final Chapter" />
+      <h3>Mission: Impossible – The...</h3>
+      <p class="meta">2025 · Action · Adventure · 2h 50m</p>
+      <div class="card-footer">
+        <button>Buy Tickets</button>
+        <span class="rating">
+          <svg class="star-icon" viewBox="0 0 24 24" fill="#f5c518" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 .587l3.668 7.568L24 9.75l-6 5.82 1.417 8.414L12 18.896 4.583 24 6 15.586 0 9.75l8.332-1.595z"/>
+          </svg>
+          <span class="rating-value">4.8</span>
+        </span>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="movie-card">
+      <img src="QuickShow-assets/assets/movie2.jpg" alt="How to Train Your Dragon" />
+      <h3>How to Train Your Dragon</h3>
+      <p class="meta">2025 · Action · Family · 2h 5m</p>
+      <div class="card-footer">
+        <button>Buy Tickets</button>
+        <span class="rating">
+          <svg class="star-icon" viewBox="0 0 24 24" fill="#f5c518" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 .587l3.668 7.568L24 9.75l-6 5.82 1.417 8.414L12 18.896 4.583 24 6 15.586 0 9.75l8.332-1.595z"/>
+          </svg>
+          <span class="rating-value">4.5</span>
+        </span>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="movie-card">
+      <img src="QuickShow-assets/assets/movie3.jpg" alt="K.O." />
+      <h3>K.O.</h3>
+      <p class="meta">2025 · Action · Drama · 1h 24m</p>
+      <div class="card-footer">
+        <button>Buy Tickets</button>
+        <span class="rating">
+          <svg class="star-icon" viewBox="0 0 24 24" fill="#f5c518" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 .587l3.668 7.568L24 9.75l-6 5.82 1.417 8.414L12 18.896 4.583 24 6 15.586 0 9.75l8.332-1.595z"/>
+          </svg>
+          <span class="rating-value">4.4</span>
+        </span>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="movie-card">
+      <img src="QuickShow-assets/assets/movie4.jpeg" alt="STRAW" />
+      <h3>STRAW</h3>
+      <p class="meta">2025 · Thriller · Drama · 1h 45m</p>
+      <div class="card-footer">
+        <button>Buy Tickets</button>
+        <span class="rating">
+          <svg class="star-icon" viewBox="0 0 24 24" fill="#f5c518" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 .587l3.668 7.568L24 9.75l-6 5.82 1.417 8.414L12 18.896 4.583 24 6 15.586 0 9.75l8.332-1.595z"/>
+          </svg>
+          <span class="rating-value">4.2</span>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="show-more-container">
+  <a href="#more-movies" class="show-more">Show More</a>
+</div>
+
+</section>
+ <!-- ===== Featured Trailer Section ===== -->
+  <body class="featured-trailer">
+    <!-- Main Featured Video -->
+    <div class="trailer-container">
+      <iframe
+        class="main-trailer"
+        src="https://www.youtube.com/embed/_Z3QKkl1WyM"
+        title="Black Panther: Wakanda Forever"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <section class="mini-trailer-section">
+  <div class="mini-video">
+    <iframe
+      src="https://www.youtube.com/embed/WpW36ldAqnM"
+      title="Ironheart Trailer"
+      allowfullscreen
+    ></iframe>
+  </div>
+
+  <div class="mini-video">
+    <iframe
+      src="https://www.youtube.com/embed/-sAOWhvheK8"
+      title="Thunderbolts Trailer"
+      allowfullscreen
+    ></iframe>
+  </div>
+
+  <div class="mini-video">
+    <iframe
+      src="https://www.youtube.com/embed/1pHDWnXmK7Y"
+      title="Captain America Trailer"
+      allowfullscreen
+    ></iframe>
+  </div>
+
+  <div class="mini-video">
+    <iframe
+      src="https://www.youtube.com/embed/Go8nTmfrQd8"
+      title="What If...? Trailer"
+      allowfullscreen
+    ></iframe>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-left">
+      <h2 class="logo"> <span>Q</span>uickShow </h2>
+      <p>
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      </p>
+      <div class="app-links">
+        <img src="QuickShow-assets/assets/googleplay.svg" alt="Google Play" />
+        <img src="QuickShow-assets/assets/appstore.svg" alt="App Store" />
+      </div>
+    </div>
+
+    <div class="footer-links">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">Privacy policy</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h4>Get in touch</h4>
+      <p>+1-234-567-890</p>
+      <p><a href="mailto:contact@example.com">contact@example.com</a></p>
+    </div>
+  </div>
+
+  <hr />
+  <p class="copyright">Copyright 2025 © GauriMandhare. All Rights Reserved</p>
+</footer>
+
+<!-- Sign Up Modal -->
+<div id="signup-modal" class="modal">
+  <div class="modal-content">
+    <a href="#" class="close-btn">&times;</a>
+    <h2>Create Account</h2>
+    <form action="#" method="get">
+      <input type="text" placeholder="Full Name" required />
+      <input type="email" placeholder="Email" required />
+      <input type="password" placeholder="Password" required />
+      <button type="submit">Sign Up</button>
+    </form>
+  </div>
+</div>
+</body>
